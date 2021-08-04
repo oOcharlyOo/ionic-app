@@ -1,0 +1,74 @@
+{
+    "materias": [
+    {
+        "id" : "1",
+        "materia" : "Ingles",
+        "profesor": "Anabel",
+        "horarios" : "Lunes",
+        "HrIyT" : "1:00pm - 2:00pm"
+    },
+    {
+        "id" : "2",
+        "materia" : "Programacion Moviles",
+        "profesor": "Emmanuel",
+        "horarios" : "Martes",
+        "HrIyT" : "2:00pm - 3:00pm"
+    },
+    {
+        "id" : "3",
+        "materia" : "Inteligencia Artificial",
+        "profesor": "Homer",
+        "horarios" : "Miercoles",
+        "HrIyT" : "3:00pm - 4:00pm"
+    },
+    {
+        "id" : "4",
+        "materia" : "Paginas web",
+        "profesor": "Refugio",
+        "horarios" : "Jueves",
+        "HrIyT" : "5:00pm - 6:00pm"
+    },
+    {
+        "id" : "5",
+        "materia" : "Programacion Orientada a Objetos",
+        "profesor": "Carmen",
+        "horarios" : "Viernes",
+        "HrIyT" : "6:00pm - 7:00pm"
+    },
+    {
+        "id" : "6",
+        "materia" : "Mineria de datos",
+        "profesor": "Ana",
+        "horarios" : "Lunes",
+        "HrIyT" : "7:00pm - 8:00pm"
+    },
+    {
+        "id" : "7",
+        "materia" : "Seguridad de la Informacion",
+        "profesor": "Refugio",
+        "horarios" : "Martes",
+        "HrIyT" : "8:00pm - 9:00pm"
+    },
+    {
+        "id" : "8",
+        "materia" : "Expresion oral y escrita",
+        "profesor": "Miriam",
+        "horarios" : "Miercoles",
+        "HrIyT" : "11:00am - 12:00am"
+    },
+    {
+        "id" : "9",
+        "materia" : "Arquitectura orientada a servicios",
+        "profesor": "Carlos",
+        "horarios" : "Jueves",
+        "HrIyT" : "12:00am - 1:00pm"
+    },
+    {
+        "id" : "10",
+        "materia" : "Base de datos",
+        "profesor": "Luisa",
+        "horarios" : "Viernes",
+        "HrIyT" : "1:00pm - 3:00pm"
+    }
+    ]
+}

@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="materias"></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+      
+    </ion-buttons>
+    <ion-title class="title">Horarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+  <div *ngIf="character" class="container">
+    <ion-list>
+      <ion-item  class="items" [routerLink]="['/disponibilidad/'+ character.id]">
+        <ion-label>{{character.horarios}}</ion-label>
+
+
+      </ion-item>
+      
+      
+
+     
+
+    </ion-list>
+     
+    
+   
+  </div>
+</ion-content>

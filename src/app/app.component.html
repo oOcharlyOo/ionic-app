@@ -1,0 +1,27 @@
+<ion-app>
+  
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <img routerLink="/folder/Inbox" src="https://uptecamac.edomex.gob.mx/sites/uptecamac.edomex.gob.mx/files/images/ingenier%C3%ADa%20en%20software.png">
+          <ion-list-header >Agenda</ion-list-header>
+ 
+            <ion-item name="materias-link" routerLink="materias">Materias
+            </ion-item>
+            <ion-item name="materias-link" routerLink="horarios/0">Horarios
+            </ion-item>
+            <ion-item name="materias-link" routerLink="disponibilidad/0">Disponibilidad
+            </ion-item>
+            <ion-item name="materias-link" routerLink="guardado">Guardado
+            </ion-item>
+            
+         
+        </ion-list>
+
+       
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
